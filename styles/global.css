@@ -1,5 +1,45 @@
+:root {
+  /* Produto */
+  --brand-color: #EF5F4C;
+
+  /* Shape */
+  --background-color: #FFFFFF;
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --shape-transparency: #FFFFFF8f;
+
+  /* Text */
+  --font-family: "Poppins", sans-serif;
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+  --text-sm: 12px/170% var(--font-family);
+  --text-md: 14px/170% var(--font-family);
+  --text: 16px/150% var(--font-family);
+  --text-lg: bold 32px/125% var(--font-family);
+
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font: var(--text);
+  color: var(--text-color-secondary);
+  background-color: var(--background-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color);
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
 }

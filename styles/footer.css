@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 32px;
+  padding-block: 25.5px;
+
+  font: var(--text-md);
+}
+
+footer div {
+  display: flex;
+  gap: 16px;
+}
